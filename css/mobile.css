@@ -1,0 +1,194 @@
+
+@media  (min-width: 770px) {
+
+  @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+  :root{
+    --VeryDarkMagenta: hsl(300, 43%, 22%);
+    --SoftPink: hsl(333, 80%, 67%);
+    --DarkGrayishMagenta: hsl(303, 10%, 53%);
+    --LightGrayishMagenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%)
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    Font size: 15px;
+    font-family: League Spartan, sans-serif;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 70vh 70vh
+  }
+
+  header{
+    width: auto;
+    height: auto;
+    display: inherit;
+    padding: 18% 0 0 20%;
+  }
+
+  .header-div{
+    width: 98%;
+    height: 98%;
+  }
+
+  h1{
+    font-family: League Spartan, sans-serif;
+    color: hsl(300, 43%, 22%);
+    text-align: left;
+    font-weight: 700;
+    padding:  0px;
+    font-size: 2.6em;
+    display: inherit;
+    line-height: .9em;
+  }
+  .h1-p{
+    padding: 6% 0 0 0;
+    text-align: left;
+    font-size: .8em;
+    max-width: none;
+    margin: none;
+    display: inherit;
+    font-weight: 400;
+    font-family: League Spartan, sans-serif;
+  }
+
+  main{
+    width: auto;
+    height: auto;
+    display: inherit;
+    padding: 20% 14% 0 12%;
+    background: var(--White);
+  }
+
+  .main__div{
+    width: 100%;
+    height: auto;
+    display: inherit;
+    transform: translateY(-24%);
+  }
+
+  .main__div__tabla1{
+    width: 340px;
+    padding: 4% 0 4% 6%;
+    height: auto;
+    background: var(--LightGrayishMagenta);
+    border-radius: 10px;
+    transform: translateX(-10%);
+    margin: 2% 0 2% 0;
+  }
+
+  .tabla1-p{
+    display: inline;
+    margin: 0 0 0 5%;
+    font-size: .8em;
+    font-weight: 600;
+  }
+
+  .main__div__tabla2{
+    width: 340px;
+    padding: 4% 0 4% 6%;
+    height: auto;
+    background: var(--LightGrayishMagenta);
+    border-radius: 10px;
+    margin: 2% 0 2% 0;
+  }
+
+  .tabla2-p{
+    display: inline;
+    margin: 0 0 0 5%;
+    font-size: .8em;
+    font-weight: 600;
+  }
+
+  .main__div__tabla3{
+    width: 340px;
+    padding: 4% 0 4% 6%;
+    height: auto;
+    background: var(--LightGrayishMagenta);
+    border-radius: 10px;
+    transform: translateX(10%);
+    margin: 2% 0 2% 0;
+
+  }
+
+  .tabla3-p{
+    display: inline;
+    margin: 0 0 0 5%;
+    font-size: .8em;
+    font-weight: 700;
+    color: var(--VeryDarkMagenta)
+  }
+
+  img{
+    width: 14px;
+  }
+
+  section{
+    background-image: url(../images/bg-pattern-bottom-mobile.svg);
+    width: auto;
+    height: auto;
+    padding: 0 8% ;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .div-section{
+    width: 27vw;
+    height: 68%;
+    border-radius: 10px;
+    background-color:  hsl(300, 43%, 22%);
+    padding: 4% 2% ;
+    margin: 0;
+    display: inline-block;
+  }
+
+  .div-section:first-of-type{
+    transform: translateY(-6%);
+  }
+
+  .div-section:last-of-type{
+    transform: translateY(6%);
+  }
+
+  h2{
+    font-size: .8em;
+    color: hsl(0, 0%, 100%);
+    margin: 0;
+    padding: 0;
+
+  }
+
+  h3{
+    font-size: .8em;
+    color: hsl(333, 80%, 67%);
+    margin: 0;
+    padding: 0;
+
+  }
+
+  .section-p{
+    margin:  7% 0 0 0;
+    font-size: .8em;
+    font-weight: 400;
+    color: hsl(300, 24%, 96%);
+    padding: 0 1%;
+  }
+
+  .td-img{
+    border-radius: 50%;
+    width: 34px;
+    padding: 0;
+  }
+
+}

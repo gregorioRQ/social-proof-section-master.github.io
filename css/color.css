@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+:root{
+  --VeryDarkMagenta: hsl(300, 43%, 22%);
+  --SoftPink: hsl(333, 80%, 67%);
+  --DarkGrayishMagenta: hsl(303, 10%, 53%);
+  --LightGrayishMagenta: hsl(300, 24%, 96%);
+  --White: hsl(0, 0%, 100%)
+}
+
+
+
+body{
+  padding: 0;
+  margin: 0;
+  Font size: 15px;
+  font-family: League Spartan, sans-serif;
+}
+
+
+
+header{
+  width: 100%;
+  height: auto;
+  background-image: url(../images/bg-pattern-top-mobile.svg);
+  display: flex;
+  flex-direction: column;
+}
+
+h1{
+  font-family: 'League Spartan', sans-serif;
+  color: hsl(300, 43%, 22%);
+  text-align: center;
+  font-weight: 700;
+  padding:  50px 50px 0px 50px;
+  font-size: 40px;
+}
+
+.h1-p{
+  padding: 0px 30px 6% 30px;
+  text-align: center;
+  font-size: 1em;
+  max-width: 480px;
+  margin: auto;
+}
+
+
+
+main{
+  width: 100%;
+  height: auto;
+}
+
+.main__div{
+  height: auto;
+  width: 86%;
+  margin: auto;
+  padding: 8% 0;
+}
+
+.main__div__tabla1,
+.main__div__tabla2,
+.main__div__tabla3{
+  background: var(--LightGrayishMagenta);
+  margin: 4% 0;
+  border-radius: 8px;
+  padding: 4%;
+  text-align: center;
+}
+
+.tabla1-p,
+.tabla2-p,
+.tabla3-p{
+  margin: 0;
+  padding: 4px 0 0 0;
+  font-size: .9em;
+  font-weight: 700;
+  color: var(--VeryDarkMagenta);
+}
+
+
+
+section{
+  background-image: url(../images/bg-pattern-bottom-mobile.svg);
+  width: 100%;
+  height: auto;
+  padding: 10% 0 18% 0;
+}
+
+.div-section{
+  width: 65%;
+  height: auto;
+  border-radius: 10px;
+  background-color:  hsl(300, 43%, 22%);
+  padding: 10%;
+  margin: 6%  auto 0;
+}
+
+h2{
+  font-size: 1.2em;
+  color: hsl(0, 0%, 100%);
+  margin: 0;
+  padding: 0;
+}
+
+h3{
+  font-size: 1em;
+  color: hsl(333, 80%, 67%);
+  margin: 0;
+  padding: 0;
+}
+
+.section-p{
+  margin: 8% 0 0 0;
+  font-size: .9em;
+  font-weight: 400;
+  color: hsl(300, 24%, 96%);
+  line-height: 22px;
+}
+
+.td-img{
+  border-radius: 50%;
+  width: 40px;
+  padding: 0;
+  margin: 6px 20px 0 0;
+}
